@@ -19,23 +19,105 @@
 </head>
 <body>
   
-    <!-- header section starts -->
+   <!-- header section starts -->
 
-    <section class="header">
-        <a href="home.php" class="logo">TravelDuniya</a>
+   <section class="header">
+      <a href="home.php" class="logo">TravelDuniya</a>
+      <nav class="navbar">
+         <a href="home.php">Home</a>
+         <a href="about.php">About</a>
+         <a href="package.php">Package</a>
+         <a href="book.php">Booking</a>
+      </nav>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </section>
+   <!-- heder section end -->
 
-        <nav class="navbar">
-            <a href="home.php">Home</a>
-            <a href="about.php">About</a>
-            <a href="package.php">Package</a>
-            <a href="book.php">Booking</a>
+   <!-- home section start -->
+   <section class="home">
 
-        </nav>
+   <div class="swiper home-slider">
 
-        <div id="menu-btn" class="fas fa-bars"></div>
+      <div class="swiper-wrapper">
 
-    </section>
-    <!-- heder section end -->
+         <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>travel arround the world</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>discover the new places</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>make your tour worthwhile</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+         
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+   </section>
+
+    <!-- home section ends -->
+
+   
+
+   <!-- services section start -->
+   <section class="service">
+
+      <h1 class="heading-title">our services</h1>
+      <div class="boxcontainer">
+
+         <div class="box">
+            <img src="images/icon-1.png" alt="">
+            <h3>adventure</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-2.png" alt="">
+            <h3>tour guide</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-3.png" alt="">
+            <h3>tracking</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-4.png" alt="">
+            <h3>Camp fire</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-5.png" alt="">
+            <h3>Off road</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-6.png" alt="">
+            <h3>Camping</h3>
+         </div>
+
+       </div>
+   </section>
+
+
+    <!-- services section ends -->
 
 
 
