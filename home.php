@@ -119,6 +119,88 @@
 
     <!-- services section ends -->
 
+    <!-- home about section starts  -->
+
+   <section class="home-about">
+
+   <div class="image">
+      <img src="images/about-img.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3>about us</h3>
+      <p>Established in 2022, TravelDuniya has since positioned itself as one of best companies, providing great offers, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all.</p>
+      <a href="about.php" class="btn">read more</a>
+   </div>
+
+   </section>
+
+   <!-- home about section ends -->
+
+   <!-- home packages section starts  -->
+
+   <section class="home-packages">
+
+   <h1 class="heading-title"> our packages </h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-1.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>TajMahal</h3>
+            <p>The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra!</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="image">
+            <img src="images/img-2.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Pahalgam</h3>
+            <p> Pahalgam’s lush valleys, colourful meadows and snow-kissed mountains look like a scene straight out of a beautiful painting.!</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+      
+      <div class="box">
+         <div class="image">
+            <img src="images/img-3.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Kovalam</h3>
+            <p> Kovalam is a tranquil seaside town nestled along the picturesque coastlines of the Arabian Sea.!</p>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+
+   </div>
+
+   <div class="load-more"> <a href="package.php" class="btn">load more</a> </div>
+
+   </section>
+
+   <!-- home packages section ends -->
+
+   <!-- home offer section starts  -->
+
+   <section class="home-offer">
+   <div class="content">
+      <h3>upto 50% off</h3>
+      <p>Grab Up to 50% instant discount on Domestic Pacakages with 5 member of family with ICICI Bank Credit Cards!</p>
+      <a href="book.php" class="btn">book now</a>
+   </div>
+   </section>
+
+   <!-- home offer section ends -->
+
+
+
+
 
 
 
